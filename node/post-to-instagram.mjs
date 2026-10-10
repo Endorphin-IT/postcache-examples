@@ -9,7 +9,7 @@ import { readFile } from 'node:fs/promises'
 import { basename } from 'node:path'
 
 const POSTCACHE = 'https://postcache.dev/v1/media'
-const GRAPH = 'https://graph.facebook.com/v23.0/'
+const GRAPH = 'https://graph.facebook.com/v25.0/'
 const auth = { authorization: `Bearer ${process.env.POSTCACHE_API_KEY}` }
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms))
 

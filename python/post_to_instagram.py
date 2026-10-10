@@ -15,7 +15,7 @@ import urllib.parse
 import urllib.request
 
 POSTCACHE = "https://postcache.dev/v1/media"
-GRAPH = "https://graph.facebook.com/v23.0/"
+GRAPH = "https://graph.facebook.com/v25.0/"
 
 
 def postcache(method, url, data=None, headers=None):
