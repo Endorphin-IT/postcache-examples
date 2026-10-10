@@ -29,6 +29,14 @@ No API key? Send the request without one: the `402` answer carries x402 (USDC on
 
 Both need `POSTCACHE_API_KEY`, `IG_USER_ID` (the Instagram business account id) and `IG_ACCESS_TOKEN` (a token with `instagram_content_publish`).
 
+## Agent skill
+
+[skills/posting-media-with-postcache](skills/posting-media-with-postcache/SKILL.md) teaches an agent the whole flow: upload per target, the platform rules, the Instagram, Threads and Facebook publishing calls, and the Meta media errors it prevents. Install it with:
+
+```sh
+npx skills add Endorphin-IT/postcache-examples
+```
+
 ## MCP
 
 Tools: `upload_media`, `check_media`, `get_media`, `delete_media`. Tool calls need the API key in the `Authorization` header.
