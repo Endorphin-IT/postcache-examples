@@ -18,7 +18,7 @@ The answer has `url` (give it to the platform as `image_url` / `video_url`) and 
 
 If the file breaks a rule, you get `422` with each problem and its fix. Add `?convert=crop` or `?convert=pad` and postcache fixes it for you (`202`, then poll `GET /v1/media/{id}` until `ready`). `?dry_run=1` checks without storing anything.
 
-No API key? Send the request without one: the `402` answer carries x402 (USDC on Base) and MPP payment challenges at $0.01 per upload.
+Paying per upload without an API key (x402 and MPP, $0.01 per upload) is coming soon. Until then, use a free key from https://postcache.dev/login.
 
 ## Examples
 

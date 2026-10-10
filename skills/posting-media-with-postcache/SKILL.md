@@ -9,7 +9,7 @@ description: Use when an agent publishes an image or video to Instagram, Threads
 
 Meta's publishing APIs don't accept file uploads for images. They fetch the media from a public URL (`image_url`, `video_url`, `url`). postcache gives the file that URL, checks it against the target platform's rules first, can convert it, and deletes it after the post.
 
-Base URL `https://postcache.dev`. Auth `Authorization: Bearer $POSTCACHE_API_KEY` (free key: sign up at https://postcache.dev/login). Without a key, the upload answers `402` with x402 and MPP payment challenges ($0.01 per upload).
+Base URL `https://postcache.dev`. Auth `Authorization: Bearer $POSTCACHE_API_KEY` (free key: sign up at https://postcache.dev/login). Pay per upload without a key (x402 and MPP, $0.01) is coming soon; until then a keyless upload answers `503 not_configured`.
 
 ## The flow
 
