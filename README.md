@@ -4,6 +4,7 @@
 
 - Docs: https://postcache.dev/docs · OpenAPI: https://postcache.dev/openapi.json · llms.txt: https://postcache.dev/llms.txt
 - MCP server: `https://postcache.dev/mcp` (Streamable HTTP), listed in the MCP Registry as `dev.postcache/postcache`
+- Glama listing: [![postcache MCP connector](https://glama.ai/mcp/connectors/dev.postcache/postcache/badges/score.svg)](https://glama.ai/mcp/connectors/dev.postcache/postcache)
 
 ## Quick start
 
